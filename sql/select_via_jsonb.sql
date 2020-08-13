@@ -1,0 +1,1 @@
+select * from voter_master where resource->>'last_name' ilike 'smith%' and resource->>'first_name' ilike 'c%'
